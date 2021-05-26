@@ -53,3 +53,7 @@
 .navbar-inverse {
     border: 0;
 }
+
+.navbar-nav>.active>a {
+    background-color: #{{ site.color.secondary-dark }} !important;
+}

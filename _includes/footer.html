@@ -1,19 +1,13 @@
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="footer">
-                <!-- <h3>{{ site.footer.location }}</h3> -->
-                <p>
-                    {% for adress in site.address %}
-                    {{ adress.line }} <br>
-                    {% endfor %}
-                </p>
-                <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} | Built with Jekyll
-                    and <span class="love">❤</span> by <a href="https://github.com/mehraneeraj17">Neeraj Mehra</a>
-                </p>
-            </div>
-        </div>
-    </div>
+<footer class="footer">
+    <!-- <h3>{{ site.footer.location }}</h3> -->
+    <p>
+        {% for adress in site.address %}
+        {{ adress.line }} <br>
+        {% endfor %}
+    </p>
+    <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }} | Built with Jekyll
+        and <span class="love">❤</span> by <a href="https://github.com/mehraneeraj17">Neeraj Mehra</a>
+    </p>
 </footer>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->

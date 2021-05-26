@@ -5084,10 +5084,6 @@ a.active {
 	color: #18bc9c;
 }
 
-h1,
-/* h2, */
-h3,
-h4,
 h5,
 h6 {
 	text-transform: uppercase;
@@ -5228,11 +5224,6 @@ header .intro-text .skills {
 section {
 	padding: 100px 0;
 }
-
-/* section h2 {
-	margin: 0;
-	font-size: 3em;
-} */
 
 section.success {
 	color: #fff;

@@ -20,3 +20,18 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+
+
+  # Footer settings
+footer:
+  copyright: Neeraj Mehra
+  location: Location
+
+  # Postal address (add as many lines as necessary)
+address:
+  - line: Electronic City
+  - line: Bangalore, KA 560100
+
+  # Build settings
+markdown: kramdown
+permalink: pretty

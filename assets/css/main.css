@@ -5106,6 +5106,6 @@ body {
     border: 0;
 }
 
-.navbar-nav>.active>a {
+.navbar-nav {
     background-color: #233140 !important;
 }

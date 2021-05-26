@@ -9,16 +9,14 @@
                         {{ adress.line }} <br>
                         {% endfor %}
                     </p>
+                    <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
+                    <p>Built with Jekyll and <span class="love">❤</span> by <a
+                            href="https://github.com/mehraneeraj17">Neeraj Mehra</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</footer>
-
-<footer class="footer">
-    <p>Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}</p>
-    <p>Built with Jekyll and <span class="love">❤</span> by <a href="https://github.com/mehraneeraj17">Neeraj Mehra</a>
-    </p>
 </footer>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->

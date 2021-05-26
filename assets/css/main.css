@@ -5042,7 +5042,8 @@ body {
 }
 
 .footer {
-	background: #1a222c;
+	background: #233140;
+	/* background-color: #233140 !important; */
 	padding: 10px 0;
 	margin-top: 100px;
 	text-align: center;

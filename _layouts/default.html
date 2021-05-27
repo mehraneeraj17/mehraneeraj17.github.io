@@ -13,6 +13,10 @@
   </section>
   {{ content }}
   
+  <section id="journey">
+    {% include journey.html %}
+  </section>
+
   {% if site.contact == "static" %}
     {% include contact_static.html %}
     {% elsif site.contact == "disqus" %}

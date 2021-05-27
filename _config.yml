@@ -13,7 +13,7 @@ email: mehraneeraj.17@gmail.com
 # github_username:  lorem_ipsum
 # gplus_username:  lorem_ipsum
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
 
 color:
   primary: 18bc9c #80B3FF
@@ -21,6 +21,20 @@ color:
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
+  # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  - title: facebook
+    url: https://www.facebook.com/mehraneerajilum
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: instagram
+    url: https://www.instagram.com/mehraneerajilum
+  - title: github
+    url: https://www.github.com/mehraneeraj17
+  - title: linkedin
+    url: https://www.linkedin.com/in/neeraj-mehra-b9510341
 
   # Footer settings
 footer:
